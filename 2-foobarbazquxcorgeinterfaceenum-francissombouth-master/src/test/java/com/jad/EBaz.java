@@ -1,3 +1,5 @@
+package com.jad;
+
 public enum EBaz implements IBaz{
     BAZ1("Baz1"),
     BAZ2("Baz2"),
