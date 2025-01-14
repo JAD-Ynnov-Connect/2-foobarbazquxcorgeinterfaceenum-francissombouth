@@ -1,7 +1,9 @@
 package com.jad;
-public interface IBar{
-    public void doSomethingLikeABar(){
-        // Do nothing
 
-    }
+public interface IBar{
+
+    public default void doSomethingLikeABar(){
+            // Do nothing
+    
+        }
 }

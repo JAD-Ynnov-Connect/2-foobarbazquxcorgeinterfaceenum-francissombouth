@@ -8,6 +8,7 @@ public enum EBaz implements IBaz{
     EBaz(String name) {
         this.name = name;
     }
+    @Override
     public void doSomethingLikeABaz() {
     }
 }
