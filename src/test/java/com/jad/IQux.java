@@ -1,5 +1,7 @@
+package com.jad;
+
 public interface IQux{
-    public void doSomethingLikeAQux(){
-    // Do nothing
-    }
+    public default void doSomethingLikeAQux(){
+        // Do nothing
+        }
 }

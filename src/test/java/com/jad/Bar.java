@@ -1,5 +1,8 @@
-public class Bar implements IBar{
-    public void doSomethingLikeABar(){
+package com.jad;
 
-    }
+public class Bar implements IBar{
+    @Override
+     public void doSomethingLikeABar(){
+     
+         }
 }

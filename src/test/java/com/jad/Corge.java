@@ -1,10 +1,19 @@
-public class Corge implements ICorge{
+package com.jad;
+
+public class Corge implements ICorge {
     private IFoo foo;
 
-    public Corge(IFoo foo){
-        this.foo=foo;
+    public Corge(IFoo foo) {
+        this.foo = foo;
     }
-    public IFoo getFoo(){
+
+    @Override
+    public void setFoo(IFoo foo) {
+        this.foo = foo;
+    }
+
+    @Override
+    public IFoo getFoo() {
         return foo;
     }
 }

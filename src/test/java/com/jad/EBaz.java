@@ -1,3 +1,5 @@
+package com.jad;
+
 public enum EBaz implements IBaz{
     BAZ1("Baz1"),
     BAZ2("Baz2"),
@@ -6,6 +8,10 @@ public enum EBaz implements IBaz{
     EBaz(String name) {
         this.name = name;
     }
+    public String getName() {
+        return name;
+    }
+    @Override
     public void doSomethingLikeABaz() {
     }
 }

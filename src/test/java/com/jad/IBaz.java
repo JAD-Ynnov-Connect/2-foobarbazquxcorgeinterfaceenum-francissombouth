@@ -1,6 +1,8 @@
-public interface IBaz{
-    public void doSomethingLikeABaz(){
-    // Do nothing
+package com.jad;
 
-    }
+public interface IBaz{
+    public default void doSomethingLikeABaz(){
+        // Do nothing
+    
+        }
 }
